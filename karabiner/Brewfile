@@ -1,0 +1,3 @@
+cask "karabiner-elements"
+brew "yqrashawn/goku/goku"
+cask "keyboard-maestro"

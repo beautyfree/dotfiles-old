@@ -1,0 +1,33 @@
+{
+  "entries": {
+    "cask": {
+      "karabiner-elements": {
+        "version": "12.9.0",
+        "options": {
+          "full_name": "karabiner-elements"
+        }
+      },
+      "keyboard-maestro": {
+        "version": "9.0.5",
+        "options": {
+          "full_name": "keyboard-maestro"
+        }
+      }
+    },
+    "brew": {
+      "yqrashawn/goku/goku": null
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.15",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "865380437c511d9fefb7be3d11a514e297cab3fd",
+        "CLT": "",
+        "Xcode": "11.4.1",
+        "macOS": "10.15.4"
+      }
+    }
+  }
+}

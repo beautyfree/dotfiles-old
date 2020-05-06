@@ -1,0 +1,50 @@
+# usual
+# cask "google-chrome"
+cask "skype"
+cask "slack"
+cask "telegram"
+cask "typora"
+cask "nordvpn"
+cask "termius"
+brew "spark"
+
+# power
+cask "alfred"
+
+# code
+cask "atom"
+cask "visual-studio-code"
+cask "kitematic"
+cask "jetbrains-toolbox"
+
+# utils
+cask "obs"
+cask "iina"
+cask "transmission"
+cask "keybase"
+cask "ngrok"
+cask "postman"
+cask "insomnia"
+cask "activedock"
+cask "dozer"
+cask "rectangle"
+cask "toggl"
+cask "cleanmymac"
+cask "ccleaner"
+cask "keka"
+cask "kekadefaultapp"
+
+brew "mas"
+# mas "2Do", id: 477670270
+mas "Amphetamine", id: 937984704
+mas "KeyKey", id: 1035137927
+
+# wanna buy
+# https://www.noodlesoft.com/
+# https://www.globaldelight.com/boom/
+# https://folivora.ai/
+# https://nektony.com/mac-app-cleaner/buy-app-cleaner?app
+# https://reederapp.com/
+# https://paw.cloud/
+# https://www.git-tower.com/pricing/mac
+# https://pdfexpert.com/

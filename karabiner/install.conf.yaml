@@ -1,0 +1,7 @@
+- link:
+    ~/.config/karabiner.edn: config/karabiner.edn
+
+- shell:
+    -
+        description: Start Goku service
+        command: "brew services start goku"

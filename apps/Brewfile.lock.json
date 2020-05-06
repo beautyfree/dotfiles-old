@@ -1,0 +1,238 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "c6ec2381a99699faa75b3cbf8d1cff6a87ce13e6"
+      },
+      "homebrew/cask-versions": {
+        "revision": "f41b5733a3726bb22be109ce25ba536c16f26301"
+      }
+    },
+    "cask": {
+      "visual-studio-code-insiders": {
+        "version": "1.45.0,6e9a34c0de4181a99f11e106733ee3e8c9db79f1",
+        "options": {
+          "full_name": "visual-studio-code-insiders"
+        }
+      },
+      "cleanmymac": {
+        "version": "4.6.2,1586337770",
+        "options": {
+          "full_name": "cleanmymac"
+        }
+      },
+      "skype": {
+        "version": "8.59.0.77",
+        "options": {
+          "full_name": "skype"
+        }
+      },
+      "atom": {
+        "version": "1.45.0",
+        "options": {
+          "full_name": "atom"
+        }
+      },
+      "alfred": {
+        "version": "4.0.9_1144",
+        "options": {
+          "full_name": "alfred"
+        }
+      },
+      "slack": {
+        "version": "4.4.2",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "telegram": {
+        "version": "6.0.196005",
+        "options": {
+          "full_name": "telegram"
+        }
+      },
+      "ngrok": {
+        "version": "latest",
+        "options": {
+          "full_name": "ngrok"
+        }
+      },
+      "postman": {
+        "version": "7.22.1",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "rectangle": {
+        "version": "0.25",
+        "options": {
+          "full_name": "rectangle"
+        }
+      },
+      "toggl": {
+        "version": "7.5.85",
+        "options": {
+          "full_name": "toggl"
+        }
+      },
+      "typora": {
+        "version": "0.9.9.32.1",
+        "options": {
+          "full_name": "typora"
+        }
+      },
+      "kitematic": {
+        "version": "0.17.11",
+        "options": {
+          "full_name": "kitematic"
+        }
+      },
+      "keybase": {
+        "version": "5.4.0-20200416160205,e81aee5eaf",
+        "options": {
+          "full_name": "keybase"
+        }
+      },
+      "insomnia": {
+        "version": "7.1.1",
+        "options": {
+          "full_name": "insomnia"
+        }
+      },
+      "keka": {
+        "version": "1.1.26",
+        "options": {
+          "full_name": "keka"
+        }
+      },
+      "kekadefaultapp": {
+        "version": "1.1.22,1.0.1-r.7",
+        "options": {
+          "full_name": "kekadefaultapp"
+        }
+      },
+      "karabiner-elements": {
+        "version": "12.9.0",
+        "options": {
+          "full_name": "karabiner-elements"
+        }
+      },
+      "jetbrains-toolbox": {
+        "version": "1.17.6802",
+        "options": {
+          "full_name": "jetbrains-toolbox"
+        }
+      },
+      "transmission": {
+        "version": "2.94",
+        "options": {
+          "full_name": "transmission"
+        }
+      },
+      "obs": {
+        "version": "25.0.8",
+        "options": {
+          "full_name": "obs"
+        }
+      },
+      "iina": {
+        "version": "1.0.6",
+        "options": {
+          "full_name": "iina"
+        }
+      },
+      "nordvpn": {
+        "version": "5.5.4",
+        "options": {
+          "full_name": "nordvpn"
+        }
+      },
+      "dozer": {
+        "version": "4.0.0",
+        "options": {
+          "full_name": "dozer"
+        }
+      },
+      "activedock": {
+        "version": "1.56",
+        "options": {
+          "full_name": "activedock"
+        }
+      },
+      "sublime-text": {
+        "version": "3.211",
+        "options": {
+          "full_name": "sublime-text"
+        }
+      },
+      "termius": {
+        "version": "5.10.1",
+        "options": {
+          "full_name": "termius"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.44.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "ccleaner": {
+        "version": "1.17.603",
+        "options": {
+          "full_name": "ccleaner"
+        }
+      }
+    },
+    "brew": {
+      "mas": {
+        "version": "1.6.3",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.catalina.bottle.tar.gz",
+              "sha256": "2069b8c1c1a64c2fb91cc1c25ab9c9890c61f2182224b9e0605a35a151bb85bd"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.mojave.bottle.tar.gz",
+              "sha256": "3dd5a50b551a37c164c31375cc8498ba870e29e50086bd5c4c294bc26708a6d2"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.high_sierra.bottle.tar.gz",
+              "sha256": "a0d1e45203448c08420c3eab2d40ef957fd22c8e40fbeb067bc7bffe4f08dfe2"
+            }
+          }
+        }
+      },
+      "yqrashawn/goku/goku": null,
+      "spark": {
+        "version": "1.0.1",
+        "bottle": false
+      }
+    },
+    "mas": {
+      "Amphetamine": {
+        "id": "937984704",
+        "version": "5.0.2"
+      },
+      "KeyKey": {
+        "id": "1035137927",
+        "version": "2.9"
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.15",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "865380437c511d9fefb7be3d11a514e297cab3fd",
+        "CLT": "",
+        "Xcode": "11.4.1",
+        "macOS": "10.15.4"
+      }
+    }
+  }
+}

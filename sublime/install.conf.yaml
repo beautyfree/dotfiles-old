@@ -1,0 +1,4 @@
+- link:
+    ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: config/Preferences.sublime-settings
+    ~/Library/Application Support/Sublime Text 3/Packages/User/ayu: config/ayu
+    ~/Library/Application Support/Sublime Text 3/Packages/User/AppleScript Extensions: config/AppleScript Extensions

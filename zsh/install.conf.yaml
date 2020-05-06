@@ -1,0 +1,21 @@
+- link:
+    ~/.zshrc: config/zshrc
+
+- shell:
+    # Add zsh to the allowed shells
+    -
+        description: Ensure zsh can shell
+        command: "cat /etc/shells | grep $(which zsh) || echo $(which zsh) | sudo tee -a /etc/shells"
+    -
+        # We do this wonky `dscl` command because dotbot is executed with `$SHELL=/bin/bash`
+        description: Set zsh as shell
+        command: "dscl . -read /Users/$USER/ UserShell | grep $(which zsh) || chsh -s $(which zsh)"
+
+
+# Ideally we would set this up so that this clean, and all the links happened in the same place.
+# That would probably mean having all modules expose a `fish_functions`, but do the linking in the Rakefile
+#
+# In the mean time, we can just make any task that links functions depend on `:fish`
+# - clean:
+#     ~/.config/fish/functions:
+#         force: true

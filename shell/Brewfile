@@ -1,0 +1,22 @@
+cask "iterm2-beta"
+brew "starship"
+brew "tmux"
+brew "tldr" # like man
+brew "htop"
+brew "httpie" # like curl
+brew "trash"
+brew "tree"
+brew "ranger"
+brew "ssh-copy-id"
+brew "ripgrep"
+brew "fzf"
+brew "jq" # json viewer
+brew "fd"
+brew "bat" # bat like cat
+brew "exa" # exa like ls
+brew "the_silver_searcher" # ag like ack
+brew "autojump" # j like cd
+
+# utils
+brew "nmap"
+brew "screenfetch"

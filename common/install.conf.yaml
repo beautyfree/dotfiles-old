@@ -1,0 +1,6 @@
+- create:
+    - ~/projects/job
+    - ~/projects/side
+
+# - link:
+#     ~/.npmrc: npmrc

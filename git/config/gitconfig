@@ -1,0 +1,43 @@
+# https://git-scm.com/docs/git-config
+
+[user]
+	name = Alexey Elizarov
+	email = felex-ae@ya.ru
+
+[github]
+  user = beautyfree
+
+[credential]
+	helper = osxkeychain
+
+[core]
+	excludesfile = ~/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[color]
+	ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+# [format]
+# 	pretty = "%C(auto)%h - %s%d%n%+b%+N(%G?) %an <%ae> (%C(blue)%ad%C(auto))%n"
+
+[pretty]
+  custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+  #                     │        │            │            │             └─ author name
+  #                     │        │            │            └─ message
+  #                     │        │            └─ date (relative)
+  #                     │        └─ decorations (branch, heads or tags)
+  #                     └─ hash (abbreviated)

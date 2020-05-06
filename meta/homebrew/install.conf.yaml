@@ -1,0 +1,23 @@
+#### Homebrew ####
+- shell:
+
+    # Get Homebrew setup
+    -
+        description: Installing Homebrew
+        command: 'brew --version || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+    -
+        description: Installing homebrew/bundle
+        command: "brew tap homebrew/bundle"
+    -
+        description: Installing homebrew/cask
+        command: "brew tap homebrew/cask"
+    -
+        description: Installing homebrew/cask-versions
+        command: "brew tap homebrew/cask-versions"
+
+    # Update Homebrew if we're just touching up
+    -
+        description: Update Homebrew
+        command: brew update
+        stdout: true
+        stderr: true

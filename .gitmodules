@@ -1,0 +1,9 @@
+[submodule "meta/dotbot"]
+	path = meta/dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "sublime/config/ayu"]
+	path = sublime/config/ayu
+	url = https://github.com/dempfi/ayu.git
+[submodule "sublime/config/AppleScript Extensions"]
+	path = sublime/config/AppleScript Extensions
+	url = https://github.com/idleberg/sublime-applescript
