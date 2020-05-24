@@ -33,14 +33,14 @@ Host meta-commun
 Host reg
     User deploy
     HostName 78.47.166.68
-    
-Host reg-dev   
+
+Host reg-dev
     User deploy
     HostName 159.69.222.204
 
 Host logs
     User deploy
-    HostName 195.201.131.112    
+    HostName 195.201.131.112
 
 Host push
     User deploy
@@ -65,7 +65,7 @@ Host facade-prod
 Host facade-old
     User deploy
     HostName 95.216.154.37
-    
+
 Host facade-46
     User deploy
     HostName 195.201.138.137
@@ -129,7 +129,7 @@ Host prism-39
 Host prism-fork
     User deploy
     HostName 116.203.136.47
-  
+
 Host sms
     User deploy
     HostName 78.47.21.216

@@ -2,3 +2,9 @@
     ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: config/Preferences.sublime-settings
     ~/Library/Application Support/Sublime Text 3/Packages/User/ayu: config/ayu
     ~/Library/Application Support/Sublime Text 3/Packages/User/AppleScript Extensions: config/AppleScript Extensions
+
+- shell:
+    # Add zsh to the allowed shells
+    -
+        description: Link for Keyboard Maestro shell open
+        command: "sudo ln -s \"/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl\" /usr/bin/subl"

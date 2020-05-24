@@ -1,6 +1,8 @@
 # ~/.zshrc
 . $HOME/.dotfiles/zsh/utils/profiler.start.zsh
 
+export KEYTIMEOUT=1 # Shorter delay typing
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -8,6 +10,10 @@ export DOTFILES="$HOME/.dotfiles"
 
 # pip
 export PATH=$PATH:/Users/devall/Library/Python/2.7/bin
+
+# go
+export GOPATH="$HOME/projects/go"
+export PATH=$GOPATH/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/devall/.oh-my-zsh"
@@ -78,9 +84,12 @@ ZSH_THEME="dracula"
 . ~/.dotfiles/zsh/config/aliases.zsh
 
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# fnm
+eval "$(fnm env --multi)"
 
 # starship
 eval "$(starship init zsh)"

@@ -4,7 +4,6 @@ cask "skype"
 cask "slack"
 cask "telegram"
 cask "typora"
-cask "nordvpn"
 cask "termius"
 brew "spark"
 
@@ -18,6 +17,7 @@ cask "kitematic"
 cask "jetbrains-toolbox"
 
 # utils
+cask "tunnelblick"
 cask "obs"
 cask "iina"
 cask "transmission"

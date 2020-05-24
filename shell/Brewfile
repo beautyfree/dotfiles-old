@@ -16,7 +16,13 @@ brew "bat" # bat like cat
 brew "exa" # exa like ls
 brew "the_silver_searcher" # ag like ack
 brew "autojump" # j like cd
+brew "navi" # an interactive cheatsheet tool for the command-line and application launchers
 
 # utils
 brew "nmap"
 brew "screenfetch"
+cask "ngrok"
+
+# code - move to code maybe
+brew "go"
+brew "Schniz/tap/fnm" # nvm like

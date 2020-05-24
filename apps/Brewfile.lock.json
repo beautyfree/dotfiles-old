@@ -70,7 +70,7 @@
         }
       },
       "toggl": {
-        "version": "7.5.85",
+        "version": "7.5.123",
         "options": {
           "full_name": "toggl"
         }
@@ -166,7 +166,7 @@
         }
       },
       "termius": {
-        "version": "5.10.1",
+        "version": "5.11.0",
         "options": {
           "full_name": "termius"
         }
@@ -182,26 +182,38 @@
         "options": {
           "full_name": "ccleaner"
         }
+      },
+      "openvpn-connect": {
+        "version": "2.7.1.107",
+        "options": {
+          "full_name": "openvpn-connect"
+        }
+      },
+      "tunnelblick": {
+        "version": "3.8.2,5480",
+        "options": {
+          "full_name": "tunnelblick"
+        }
       }
     },
     "brew": {
       "mas": {
-        "version": "1.6.3",
+        "version": "1.6.4",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.catalina.bottle.tar.gz",
-              "sha256": "2069b8c1c1a64c2fb91cc1c25ab9c9890c61f2182224b9e0605a35a151bb85bd"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.catalina.bottle.tar.gz",
+              "sha256": "f729913676a53d457907bedf910e83ba655ec27c0c18db9532918d6552ff34aa"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.mojave.bottle.tar.gz",
-              "sha256": "3dd5a50b551a37c164c31375cc8498ba870e29e50086bd5c4c294bc26708a6d2"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.mojave.bottle.tar.gz",
+              "sha256": "3d0fb7ce08e8b75c0cf90342ae2722fa9038abcf0abcbbff9921c1779d026b6b"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.3.high_sierra.bottle.tar.gz",
-              "sha256": "a0d1e45203448c08420c3eab2d40ef957fd22c8e40fbeb067bc7bffe4f08dfe2"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.high_sierra.bottle.tar.gz",
+              "sha256": "9fafb851900debaf09ac7b3dbcd9b6e72bad4521576005a2baf7c843d9fc9d8d"
             }
           }
         }
@@ -226,9 +238,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.15",
+        "HOMEBREW_VERSION": "2.2.17",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "865380437c511d9fefb7be3d11a514e297cab3fd",
+        "Homebrew/homebrew-core": "a51dbf8244075765b04ade99bc02ac6c7fae77c0",
         "CLT": "",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"

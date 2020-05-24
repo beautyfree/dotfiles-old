@@ -85,8 +85,8 @@
          :rules [[:right_command :right_command nil {:alone :!CTOSspacebar}]]}
         {:des "left cmd -> cmd+tab"
          :rules [[:left_command :left_command nil {:alone :!Ctab}]]}
-        {:des "right opt -> ChromeCanary/Simulator"
-         :rules [[:right_alt :right_alt nil {:alone [:km "open: Chrome Canary / Simulator"]}]]}
+        {:des "right opt -> Chrome"
+         :rules [[:right_alt :right_alt nil {:alone [:km "open: Chrome"]}]]}
         ;{:des "§ -> Karabiner/VSCodeVim on/off"
         ; :rules [[:non_us_backslash [:km "Karabiner/VSCodeVim on/off"]]]}
         {:des "jsim"
@@ -546,21 +546,21 @@
                  ;[:period [:km "Search Tweetbot"]]
                  [:period [:km "w: Twitter Search"]]
                  [:spacebar :!CSOz]]} ; Selection -> Twitter
-        {:des "xkey (spotify)"
-         :rules [:x-mode
-                 [:o [:km "Paste current Spotify song link"]]
-                 [:open_bracket [:alfred "twitter_search_current_track" "com.vdesabou.spotify.mini.player"]]
-                 [:close_bracket [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player" "spotify:playlist:2N82DnDsPGMnpJhN8sVFJu"]] ; Add song to Bliss playlist
-                 [:j [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
-                 [:k [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
-                 [:semicolon [:alfred "add_current_track_to_alfred_playlist_or_your_music" "com.vdesabou.spotify.mini.player"]] ; Add song to Likes playlist
-                 [:quote [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player" "spotify:playlist:0ESjwZeTcHOWzY3FYO5zs5"]] ; Add song to Focus playlist
-                 [:n [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
-                 [:m [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
-                 ;[:comma [:alfred "youtube_search_current_track" "com.vdesabou.spotify.mini.player"]] ; TODO: twitter search
-                 [:comma [:alfred "show_search_online" "com.vdesabou.spotify.mini.player"]] ; TODO: split up further into binds for direct searches of tracks/artists/all
-                 [:period [:alfred "youtube_search_current_track" "com.vdesabou.spotify.mini.player"]]
-                 [:slash [:alfred "reddit_search_current_track" "com.vdesabou.spotify.mini.player"]]]}
+        ; {:des "xkey (spotify)"
+        ;  :rules [:x-mode
+        ;          [:o [:km "Paste current Spotify song link"]]
+        ;          [:open_bracket [:alfred "twitter_search_current_track" "com.vdesabou.spotify.mini.player"]]
+        ;          [:close_bracket [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player" "spotify:playlist:2N82DnDsPGMnpJhN8sVFJu"]] ; Add song to Bliss playlist
+        ;          [:j [:alfred "show_alfred_playlist" "com.vdesabou.spotify.mini.player"]]
+        ;          [:k [:alfred "show_current_track" "com.vdesabou.spotify.mini.player"]]
+        ;          [:semicolon [:alfred "add_current_track_to_alfred_playlist_or_your_music" "com.vdesabou.spotify.mini.player"]] ; Add song to Likes playlist
+        ;          [:quote [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player" "spotify:playlist:0ESjwZeTcHOWzY3FYO5zs5"]] ; Add song to Focus playlist
+        ;          [:n [:alfred "add_current_track_to" "com.vdesabou.spotify.mini.player"]]
+        ;          [:m [:alfred "remove_current_track_from" "com.vdesabou.spotify.mini.player"]]
+        ;          ;[:comma [:alfred "youtube_search_current_track" "com.vdesabou.spotify.mini.player"]] ; TODO: twitter search
+        ;          [:comma [:alfred "show_search_online" "com.vdesabou.spotify.mini.player"]] ; TODO: split up further into binds for direct searches of tracks/artists/all
+        ;          [:period [:alfred "youtube_search_current_track" "com.vdesabou.spotify.mini.player"]]
+        ;          [:slash [:alfred "reddit_search_current_track" "com.vdesabou.spotify.mini.player"]]]}
         {:des "ckey (test + dots)"
          :rules [:c-mode
                  [:i [:km "edit: Aliases"]]
