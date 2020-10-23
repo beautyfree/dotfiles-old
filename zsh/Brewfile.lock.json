@@ -27,12 +27,12 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.17",
+        "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3136891f4dc5344470cf9b3fa2f9b14848ff713b",
-        "CLT": "",
-        "Xcode": "11.4.1",
-        "macOS": "10.15.4"
+        "Homebrew/homebrew-core": "e93bf6b665e29bd5bbbfa31e1a123ac90e0b8ba8",
+        "CLT": "12.1.0.0.1.1602137645",
+        "Xcode": "12.0.1",
+        "macOS": "10.15.7"
       }
     }
   }

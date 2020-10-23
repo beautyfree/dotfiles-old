@@ -15,6 +15,12 @@ export PATH=$PATH:/Users/devall/Library/Python/2.7/bin
 export GOPATH="$HOME/projects/go"
 export PATH=$GOPATH/bin:$PATH
 
+# Rust
+export PATH=$HOME/.cargo/bin:$PATH
+
+# ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/devall/.oh-my-zsh"
 

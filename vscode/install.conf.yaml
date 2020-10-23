@@ -1,0 +1,4 @@
+- link:
+    ~/Library/Application Support/Code/User/settings.json: config/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: config/keybindings.json
+#    ~/Library/Application Support/Code/User/snippets: config/snippets

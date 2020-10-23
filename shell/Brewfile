@@ -25,4 +25,5 @@ cask "ngrok"
 
 # code - move to code maybe
 brew "go"
-brew "Schniz/tap/fnm" # nvm like
+brew "ruby" # beacause of permissions of apple ruby
+brew "schniz/tap/fnm" # nvm/n like

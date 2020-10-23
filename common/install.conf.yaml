@@ -1,6 +1,6 @@
 - create:
-    - ~/projects/job
-    - ~/projects/side
+    - ~/projects/personal
+    - ~/projects/orgs
 
 # - link:
 #     ~/.npmrc: npmrc

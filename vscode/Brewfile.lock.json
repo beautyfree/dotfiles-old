@@ -1,10 +1,10 @@
 {
   "entries": {
     "cask": {
-      "sublime-text": {
-        "version": "3.211",
+      "visual-studio-code": {
+        "version": "1.44.2",
         "options": {
-          "full_name": "sublime-text"
+          "full_name": "visual-studio-code"
         }
       }
     }

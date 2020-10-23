@@ -9,12 +9,6 @@
       }
     },
     "cask": {
-      "visual-studio-code-insiders": {
-        "version": "1.45.0,6e9a34c0de4181a99f11e106733ee3e8c9db79f1",
-        "options": {
-          "full_name": "visual-studio-code-insiders"
-        }
-      },
       "cleanmymac": {
         "version": "4.6.2,1586337770",
         "options": {
@@ -70,7 +64,7 @@
         }
       },
       "toggl": {
-        "version": "7.5.123",
+        "version": "7.5.192",
         "options": {
           "full_name": "toggl"
         }
@@ -82,7 +76,7 @@
         }
       },
       "kitematic": {
-        "version": "0.17.11",
+        "version": "0.17.13",
         "options": {
           "full_name": "kitematic"
         }
@@ -130,7 +124,7 @@
         }
       },
       "obs": {
-        "version": "25.0.8",
+        "version": "26.0",
         "options": {
           "full_name": "obs"
         }
@@ -166,7 +160,7 @@
         }
       },
       "termius": {
-        "version": "5.11.0",
+        "version": "6.1.1",
         "options": {
           "full_name": "termius"
         }
@@ -178,7 +172,7 @@
         }
       },
       "ccleaner": {
-        "version": "1.17.603",
+        "version": "1.18.30",
         "options": {
           "full_name": "ccleaner"
         }
@@ -194,26 +188,82 @@
         "options": {
           "full_name": "tunnelblick"
         }
+      },
+      "spotify": {
+        "version": "latest",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "boom-3d": {
+        "version": "1.3.9",
+        "options": {
+          "full_name": "boom-3d"
+        }
+      },
+      "bettertouchtool": {
+        "version": "3.389-1612",
+        "options": {
+          "full_name": "bettertouchtool"
+        }
+      },
+      "postico": {
+        "version": "1.5.14",
+        "options": {
+          "full_name": "postico"
+        }
+      },
+      "streamlabs-obs": {
+        "version": "0.23.4",
+        "options": {
+          "full_name": "streamlabs-obs"
+        }
+      },
+      "clean-me": {
+        "version": "1.4.2",
+        "options": {
+          "full_name": "clean-me"
+        }
+      },
+      "vnc-viewer": {
+        "version": "6.20.817",
+        "options": {
+          "full_name": "vnc-viewer"
+        }
+      },
+      "dropbox": {
+        "version": "latest",
+        "options": {
+          "full_name": "dropbox"
+        }
+      },
+      "amethyst": {
+        "version": "0.15.3",
+        "options": {
+          "full_name": "amethyst"
+        }
+      },
+      "malwarebytes": {
+        "version": "4.4.11.3637",
+        "options": {
+          "full_name": "malwarebytes"
+        }
       }
     },
     "brew": {
       "mas": {
-        "version": "1.6.4",
+        "version": "1.7.1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.catalina.bottle.tar.gz",
-              "sha256": "f729913676a53d457907bedf910e83ba655ec27c0c18db9532918d6552ff34aa"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.catalina.bottle.tar.gz",
+              "sha256": "e6de2f98ebd21885a9827664fe1b7eea5516a7fd75d5b7383e3a9b088591a27f"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.mojave.bottle.tar.gz",
-              "sha256": "3d0fb7ce08e8b75c0cf90342ae2722fa9038abcf0abcbbff9921c1779d026b6b"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.6.4.high_sierra.bottle.tar.gz",
-              "sha256": "9fafb851900debaf09ac7b3dbcd9b6e72bad4521576005a2baf7c843d9fc9d8d"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.mojave.bottle.tar.gz",
+              "sha256": "8b6dc4e261ebdc8e2f93afe87da3db4d482eb3d8a0358ab19a0485d434550e77"
             }
           }
         }
@@ -227,7 +277,7 @@
     "mas": {
       "Amphetamine": {
         "id": "937984704",
-        "version": "5.0.2"
+        "version": "5.0.3"
       },
       "KeyKey": {
         "id": "1035137927",
@@ -238,12 +288,12 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.17",
+        "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a51dbf8244075765b04ade99bc02ac6c7fae77c0",
-        "CLT": "",
-        "Xcode": "11.4.1",
-        "macOS": "10.15.4"
+        "Homebrew/homebrew-core": "e93bf6b665e29bd5bbbfa31e1a123ac90e0b8ba8",
+        "CLT": "12.1.0.0.1.1602137645",
+        "Xcode": "12.0.1",
+        "macOS": "10.15.7"
       }
     }
   }

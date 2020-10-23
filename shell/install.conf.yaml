@@ -1,2 +1,16 @@
 - link:
     ~/.hushlogin: config/hushlogin
+
+- shell:
+    # Because of error https://github.com/CocoaPods/CocoaPods/issues/8955
+    -
+        description: Upgrade cocoapods
+        command: brew upgrade cocoapods    
+        
+    -
+        description: iTerm2 Specify the preferences directory
+        command: defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/shell/iterm2"
+      
+    -
+        description: Tell iTerm2 to use the custom preferences in the directory
+        command: defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true 

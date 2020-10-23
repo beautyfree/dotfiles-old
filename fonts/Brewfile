@@ -3,5 +3,5 @@ tap "homebrew/cask-fonts"
 # https://github.com/Homebrew/homebrew-cask-fonts/issues/2023
 brew "svn"
 
-cask "font-fira-code"
+# cask "font-fira-code"
 cask "font-fira-mono-for-powerline"

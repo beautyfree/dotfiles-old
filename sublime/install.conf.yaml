@@ -6,5 +6,5 @@
 - shell:
     # Add zsh to the allowed shells
     -
-        description: Link for Keyboard Maestro shell open
-        command: "sudo ln -s \"/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl\" /usr/bin/subl"
+        description: Link Sublime for Keyboard Maestro shell open
+        command: "sudo ln -sf \"/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl\" /usr/local/bin/subl"

@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.showNextWindowTab"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFile"
+  }
+]

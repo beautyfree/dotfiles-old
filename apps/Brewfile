@@ -6,31 +6,41 @@ cask "telegram"
 cask "typora"
 cask "termius"
 brew "spark"
+cask "spotify"
 
 # power
 cask "alfred"
+cask "boom-3d"
+cask "bettertouchtool"
 
 # code
 cask "atom"
-cask "visual-studio-code"
 cask "kitematic"
+cask "postico"
 cask "jetbrains-toolbox"
 
 # utils
-cask "tunnelblick"
+cask "streamlabs-obs"
 cask "obs"
+cask "clean-me"
+# cask "caffeinate" # dont find cask
+cask "vnc-viewer"
+cask "dropbox"
+cask "tunnelblick"
 cask "iina"
 cask "transmission"
 cask "keybase"
 cask "ngrok"
 cask "postman"
 cask "insomnia"
-cask "activedock"
+# cask "activedock"
 cask "dozer"
-cask "rectangle"
+# cask "rectangle"
+cask "amethyst"
 cask "toggl"
-cask "cleanmymac"
+# cask "cleanmymac"
 cask "ccleaner"
+cask "malwarebytes"
 cask "keka"
 cask "kekadefaultapp"
 
@@ -41,8 +51,7 @@ mas "KeyKey", id: 1035137927
 
 # wanna buy
 # https://www.noodlesoft.com/
-# https://www.globaldelight.com/boom/
-# https://folivora.ai/
+# !!! https://folivora.ai/
 # https://nektony.com/mac-app-cleaner/buy-app-cleaner?app
 # https://reederapp.com/
 # https://paw.cloud/

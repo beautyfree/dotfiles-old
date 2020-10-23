@@ -1,0 +1,36 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": true,
+  "telemetry.enableTelemetry": false,
+  "workbench.enableExperiments": false,
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "explorer.openEditors.visible": 0,
+  "timeline.excludeSources": [],
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.iconTheme": "ayu",
+  "oneDarkPro.editorTheme": "ayu",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.compactFolders": false,
+  "typescript.implementationsCodeLens.enabled": true,
+  "workbench.colorTheme": "Dracula Darcula",
+  "git.autofetch": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120
+}
