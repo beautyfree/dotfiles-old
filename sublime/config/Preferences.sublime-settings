@@ -5,7 +5,9 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
-		"Vintage"
+		"A File Icon",
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"tab_size": 2,
 	"theme": "ayu-mirage.sublime-theme",

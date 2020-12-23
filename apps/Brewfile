@@ -15,37 +15,31 @@ cask "bettertouchtool"
 
 # code
 cask "atom"
-cask "kitematic"
 cask "postico"
 cask "jetbrains-toolbox"
 
 # utils
-cask "streamlabs-obs"
 cask "obs"
 cask "clean-me"
 # cask "caffeinate" # dont find cask
 cask "vnc-viewer"
-cask "dropbox"
+#cask "dropbox"
 cask "tunnelblick"
-cask "iina"
+#cask "iina"
 cask "transmission"
 cask "keybase"
 cask "ngrok"
 cask "postman"
-cask "insomnia"
-# cask "activedock"
-cask "dozer"
+#cask "insomnia"
+cask "dozer" # better top bar
 # cask "rectangle"
 cask "amethyst"
 cask "toggl"
-# cask "cleanmymac"
-cask "ccleaner"
 cask "malwarebytes"
 cask "keka"
 cask "kekadefaultapp"
 
 brew "mas"
-# mas "2Do", id: 477670270
 mas "Amphetamine", id: 937984704
 mas "KeyKey", id: 1035137927
 
