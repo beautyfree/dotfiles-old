@@ -26,6 +26,5 @@ brew "nmap"
 # cask "ngrok"
 
 # code - move to code maybe
-brew "fnm" # nvm/n like
 # brew "go"
 # brew "ruby" # beacause of permissions of apple ruby
