@@ -48,6 +48,7 @@ cask "tunnelblick" # vpn client
 brew "mas"
 mas "Amphetamine", id: 937984704
 mas "KeyKey", id: 1035137927
+mas "Coin Tick - Menu Bar Crypto", id: 1141688067
 
 # wanna buy
 # https://www.noodlesoft.com/

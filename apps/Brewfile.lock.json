@@ -150,7 +150,8 @@
       "KeyKey": {
         "id": "1035137927",
         "version": "2.9"
-      }
+      },
+      "Coin Tick - Menu Bar Crypto": null
     }
   },
   "system": {
@@ -158,7 +159,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.3",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "4642fe362e0212121262448a76a9db9b9480fc96",
+        "Homebrew/homebrew-core": "d715552bae50919576ab9fa15da84d303c25deac",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.0",
         "macOS": "12.0"
