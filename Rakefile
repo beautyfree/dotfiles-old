@@ -35,15 +35,15 @@ task :karabiner => [:'meta:homebrew', :'meta:dotbot'] do
     sh "#{dotbot} -c karabiner/install.conf.yaml"
 end
 
-task :sublime => [:'meta:homebrew', :'meta:dotbot'] do
-    sh 'brew bundle --verbose --file=sublime/Brewfile'
-    sh "#{dotbot} -c sublime/install.conf.yaml"
-end
+# task :sublime => [:'meta:homebrew', :'meta:dotbot'] do
+#     sh 'brew bundle --verbose --file=sublime/Brewfile'
+#     sh "#{dotbot} -c sublime/install.conf.yaml"
+# end
 
-task :vscode => [:'meta:homebrew', :'meta:dotbot'] do
-    sh 'brew bundle --verbose --file=vscode/Brewfile'
-    sh "#{dotbot} -c vscode/install.conf.yaml"
-end
+# task :vscode => [:'meta:homebrew', :'meta:dotbot'] do
+#     sh 'brew bundle --verbose --file=vscode/Brewfile'
+#     sh "#{dotbot} -c vscode/install.conf.yaml"
+# end
 
 task :apps => [:'meta:homebrew'] do
     sh 'brew bundle --verbose --file=apps/Brewfile'
@@ -60,11 +60,6 @@ end
 
 # This is more or less the setup process
 namespace :meta do
-
-    # task :mackup => [:homebrew, :dotbot] do
-    #     sh 'brew bundle --verbose --file=meta/mackup/Brewfile'
-    #     sh "#{dotbot} -c meta/mackup/install.conf.yaml"
-    # end
 
     task :homebrew => :dotbot do
         # No brewfile, because we don't have homebrew installed yet ^_^
@@ -94,6 +89,5 @@ task :default => [
 ]
 
 task :install => [
-  # :'meta:mackup',
   :default
 ]

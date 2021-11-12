@@ -1,5 +1,5 @@
 brew "git"
-brew "hub"
 brew "diff-so-fancy"
 brew "git-quick-stats"
-brew "bfg"
+# brew "hub"
+# brew "bfg"

@@ -1,3 +1,7 @@
 - link:
-    ~/.ssh/config: config
-    ~/.ssh/config.local: config.local
+    ~/.ssh/config:
+      relink: true
+      path: config
+    ~/.ssh/config.local:
+      relink: true
+      path: config.local

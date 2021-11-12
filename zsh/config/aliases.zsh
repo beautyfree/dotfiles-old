@@ -7,8 +7,8 @@ alias src='. ~/.zshrc'
 alias o='open . &'
 
 # Misc
-alias cat="bat"
-alias ra='ranger'
+# alias cat="bat"
+# alias ra='ranger'
 
 # Listing files and directories
 alias exa="exa"

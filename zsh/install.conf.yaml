@@ -1,5 +1,10 @@
 - link:
-    ~/.zshrc: config/zshrc
+    ~/.zshrc:
+      relink: true
+      path: config/zshrc
+    ~/.zprofile:
+      relink: true
+      path: config/zprofile
 
 - shell:
     # Add zsh to the allowed shells
@@ -10,3 +15,8 @@
         # We do this wonky `dscl` command because dotbot is executed with `$SHELL=/bin/bash`
         description: Set zsh as shell
         command: "dscl . -read /Users/$USER/ UserShell | grep $(which zsh) || chsh -s $(which zsh)"
+
+    -
+        description: Install oh-my-zsh
+        command: '[ ! -d "$HOME/.oh-my-zsh" ] && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" || echo "Oh my zsh already installed"'
+        stdout: true

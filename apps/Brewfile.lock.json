@@ -1,144 +1,76 @@
 {
   "entries": {
-    "tap": {
-      "homebrew/cask": {
-        "revision": "c6ec2381a99699faa75b3cbf8d1cff6a87ce13e6"
-      },
-      "homebrew/cask-versions": {
-        "revision": "f41b5733a3726bb22be109ce25ba536c16f26301"
-      }
-    },
     "cask": {
-      "cleanmymac": {
-        "version": "4.6.2,1586337770",
+      "brave-browser": {
+        "version": "1.31.91.0,131.91",
         "options": {
-          "full_name": "cleanmymac"
-        }
-      },
-      "skype": {
-        "version": "8.59.0.77",
-        "options": {
-          "full_name": "skype"
-        }
-      },
-      "atom": {
-        "version": "1.45.0",
-        "options": {
-          "full_name": "atom"
-        }
-      },
-      "alfred": {
-        "version": "4.0.9_1144",
-        "options": {
-          "full_name": "alfred"
+          "full_name": "brave-browser"
         }
       },
       "slack": {
-        "version": "4.4.2",
+        "version": "4.22.0",
         "options": {
           "full_name": "slack"
         }
       },
       "telegram": {
-        "version": "6.0.196005",
+        "version": "8.2,223044",
         "options": {
           "full_name": "telegram"
         }
       },
-      "ngrok": {
-        "version": "latest",
+      "spotify": {
+        "version": "1.1.69.612.gb7409abc,1.1.69.612.gb7409abc-13",
         "options": {
-          "full_name": "ngrok"
+          "full_name": "spotify"
         }
       },
-      "postman": {
-        "version": "7.22.1",
+      "discord": {
+        "version": "0.0.264",
         "options": {
-          "full_name": "postman"
+          "full_name": "discord"
         }
       },
-      "rectangle": {
-        "version": "0.25",
+      "figma": {
+        "version": "104.1.0",
         "options": {
-          "full_name": "rectangle"
+          "full_name": "figma"
         }
       },
-      "toggl": {
-        "version": "7.5.192",
+      "notion": {
+        "version": "2.0.18",
         "options": {
-          "full_name": "toggl"
+          "full_name": "notion"
         }
       },
-      "typora": {
-        "version": "0.9.9.32.1",
+      "alfred": {
+        "version": "4.6,1266",
         "options": {
-          "full_name": "typora"
+          "full_name": "alfred"
         }
       },
-      "kitematic": {
-        "version": "0.17.13",
+      "boom-3d": {
+        "version": "1.3.12,101.3.12012",
         "options": {
-          "full_name": "kitematic"
-        }
-      },
-      "keybase": {
-        "version": "5.4.0-20200416160205,e81aee5eaf",
-        "options": {
-          "full_name": "keybase"
-        }
-      },
-      "insomnia": {
-        "version": "7.1.1",
-        "options": {
-          "full_name": "insomnia"
-        }
-      },
-      "keka": {
-        "version": "1.1.26",
-        "options": {
-          "full_name": "keka"
-        }
-      },
-      "kekadefaultapp": {
-        "version": "1.1.22,1.0.1-r.7",
-        "options": {
-          "full_name": "kekadefaultapp"
-        }
-      },
-      "karabiner-elements": {
-        "version": "12.9.0",
-        "options": {
-          "full_name": "karabiner-elements"
+          "full_name": "boom-3d"
         }
       },
       "jetbrains-toolbox": {
-        "version": "1.17.6802",
+        "version": "1.22,1.22.10685",
         "options": {
           "full_name": "jetbrains-toolbox"
         }
       },
-      "transmission": {
-        "version": "2.94",
-        "options": {
-          "full_name": "transmission"
-        }
-      },
       "obs": {
-        "version": "26.0",
+        "version": "27.1.3",
         "options": {
           "full_name": "obs"
         }
       },
-      "iina": {
-        "version": "1.0.6",
+      "tunnelblick": {
+        "version": "3.8.6a,5711",
         "options": {
-          "full_name": "iina"
-        }
-      },
-      "nordvpn": {
-        "version": "5.5.4",
-        "options": {
-          "full_name": "nordvpn"
+          "full_name": "tunnelblick"
         }
       },
       "dozer": {
@@ -146,138 +78,62 @@
         "options": {
           "full_name": "dozer"
         }
-      },
-      "activedock": {
-        "version": "1.56",
-        "options": {
-          "full_name": "activedock"
-        }
-      },
-      "sublime-text": {
-        "version": "3.211",
-        "options": {
-          "full_name": "sublime-text"
-        }
-      },
-      "termius": {
-        "version": "6.1.1",
-        "options": {
-          "full_name": "termius"
-        }
-      },
-      "visual-studio-code": {
-        "version": "1.44.2",
-        "options": {
-          "full_name": "visual-studio-code"
-        }
-      },
-      "ccleaner": {
-        "version": "1.18.30",
-        "options": {
-          "full_name": "ccleaner"
-        }
-      },
-      "openvpn-connect": {
-        "version": "2.7.1.107",
-        "options": {
-          "full_name": "openvpn-connect"
-        }
-      },
-      "tunnelblick": {
-        "version": "3.8.2,5480",
-        "options": {
-          "full_name": "tunnelblick"
-        }
-      },
-      "spotify": {
-        "version": "latest",
-        "options": {
-          "full_name": "spotify"
-        }
-      },
-      "boom-3d": {
-        "version": "1.3.9",
-        "options": {
-          "full_name": "boom-3d"
-        }
-      },
-      "bettertouchtool": {
-        "version": "3.389-1612",
-        "options": {
-          "full_name": "bettertouchtool"
-        }
-      },
-      "postico": {
-        "version": "1.5.14",
-        "options": {
-          "full_name": "postico"
-        }
-      },
-      "streamlabs-obs": {
-        "version": "0.23.4",
-        "options": {
-          "full_name": "streamlabs-obs"
-        }
-      },
-      "clean-me": {
-        "version": "1.4.2",
-        "options": {
-          "full_name": "clean-me"
-        }
-      },
-      "vnc-viewer": {
-        "version": "6.20.817",
-        "options": {
-          "full_name": "vnc-viewer"
-        }
-      },
-      "dropbox": {
-        "version": "latest",
-        "options": {
-          "full_name": "dropbox"
-        }
-      },
-      "amethyst": {
-        "version": "0.15.3",
-        "options": {
-          "full_name": "amethyst"
-        }
-      },
-      "malwarebytes": {
-        "version": "4.4.11.3637",
-        "options": {
-          "full_name": "malwarebytes"
-        }
       }
     },
     "brew": {
-      "mas": {
-        "version": "1.7.1",
+      "spark": {
+        "version": "1.0.1",
         "bottle": {
-          "cellar": ":any",
-          "prefix": "/usr/local",
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
-            "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.catalina.bottle.tar.gz",
-              "sha256": "e6de2f98ebd21885a9827664fe1b7eea5516a7fd75d5b7383e3a9b088591a27f"
-            },
-            "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.mojave.bottle.tar.gz",
-              "sha256": "8b6dc4e261ebdc8e2f93afe87da3db4d482eb3d8a0358ab19a0485d434550e77"
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/spark/blobs/sha256:c98b248ad29955ccf560e99cb9c325fb28d881391c5bf9c0888251a02f41792d",
+              "sha256": "c98b248ad29955ccf560e99cb9c325fb28d881391c5bf9c0888251a02f41792d"
             }
           }
         }
       },
-      "yqrashawn/goku/goku": null,
-      "spark": {
-        "version": "1.0.1",
-        "bottle": false
+      "mas": {
+        "version": "1.8.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:433b94f32da9835c0800975a5f8db08c823c4b8c35077db7e2a9763d700f0fbe",
+              "sha256": "433b94f32da9835c0800975a5f8db08c823c4b8c35077db7e2a9763d700f0fbe"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:446af97db6bcb0f44d61e7486d7c74d14325002ff9918dba7a7db3045bf8b07c",
+              "sha256": "446af97db6bcb0f44d61e7486d7c74d14325002ff9918dba7a7db3045bf8b07c"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:62f08836f3ff705e8b7dd858a5225a0b0bceb39d6bb2340ee469e68ead73a90b",
+              "sha256": "62f08836f3ff705e8b7dd858a5225a0b0bceb39d6bb2340ee469e68ead73a90b"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:18fd65b45ff112ca5c80a31202688617a22dec56b28bbb93cf4bdb6ed2d73d56",
+              "sha256": "18fd65b45ff112ca5c80a31202688617a22dec56b28bbb93cf4bdb6ed2d73d56"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:29d2d552d09ef893c3560d94a01c2985bb53b2e9499400987ad76c9b50b9f0f9",
+              "sha256": "29d2d552d09ef893c3560d94a01c2985bb53b2e9499400987ad76c9b50b9f0f9"
+            }
+          }
+        }
       }
     },
     "mas": {
       "Amphetamine": {
         "id": "937984704",
-        "version": "5.0.3"
+        "version": "5.2.2"
       },
       "KeyKey": {
         "id": "1035137927",
@@ -287,13 +143,13 @@
   },
   "system": {
     "macos": {
-      "catalina": {
-        "HOMEBREW_VERSION": "2.5.6",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e93bf6b665e29bd5bbbfa31e1a123ac90e0b8ba8",
-        "CLT": "12.1.0.0.1.1602137645",
-        "Xcode": "12.0.1",
-        "macOS": "10.15.7"
+      "monterey": {
+        "HOMEBREW_VERSION": "3.3.3",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "356f12c369ef109698dc02753ccc078c66628901",
+        "CLT": "13.1.0.0.1.1633545042",
+        "Xcode": "13.0",
+        "macOS": "12.0"
       }
     }
   }

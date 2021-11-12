@@ -24,6 +24,23 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/devall/.oh-my-zsh"
 
+# ZSH plugins
+export ZPLUG_HOME=$(brew --prefix)/opt/zplug
+source $ZPLUG_HOME/init.zsh
+
+zplug "plugins/git",   from:oh-my-zsh
+zplug "dracula/zsh", as:theme
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+zplug load
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -55,7 +72,7 @@ ZSH_THEME="dracula"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-. $DOTFILES/zsh/config/oh-my-zsh.zsh
+# . $DOTFILES/zsh/config/oh-my-zsh.zsh
 
 # User configuration
 
@@ -89,17 +106,13 @@ ZSH_THEME="dracula"
 # aliases
 . ~/.dotfiles/zsh/config/aliases.zsh
 
-
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # fnm
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
 # starship
 eval "$(starship init zsh)"
 
+# z
 . $(brew --prefix)/etc/profile.d/z.sh
 
 # $(brew --prefix)/opt/fzf/install

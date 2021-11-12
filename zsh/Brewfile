@@ -1,1 +1,2 @@
 brew "zsh"
+brew "zplug" # plugin manager for zsh

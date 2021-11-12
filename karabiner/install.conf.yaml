@@ -1,5 +1,8 @@
 - link:
-    ~/.config/karabiner.edn: config/karabiner.edn
+    ~/.config/karabiner.edn:
+      create: true
+      relink: true
+      path: config/karabiner.edn
 
 - shell:
     -

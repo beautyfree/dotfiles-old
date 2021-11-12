@@ -5,7 +5,7 @@
 plugins=(
  git
  docker-compose
- zsh-autosuggestions
+# zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh

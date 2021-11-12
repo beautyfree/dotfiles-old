@@ -1,29 +1,31 @@
 cask "iterm2-beta"
 brew "starship"
 brew "tmux"
-brew "tldr" # like man
+# brew "tldr" # like man
 brew "htop"
-brew "httpie" # like curl
-brew "trash"
+
 brew "tree"
-brew "ranger"
 brew "ssh-copy-id"
-brew "ripgrep"
 brew "fzf"
-brew "jq" # json viewer
-brew "fd"
-brew "bat" # bat like cat
 brew "exa" # exa like ls
-brew "the_silver_searcher" # ag like ack
 brew "autojump" # j like cd
-brew "navi" # an interactive cheatsheet tool for the command-line and application launchers
+brew "z" # jumping between various directories easier
+# brew "ripgrep"
+# brew "jq" # json viewer
+# brew "fd"
+# brew "bat" # bat like cat
+# brew "ranger"
+# brew "the_silver_searcher" # ag like ack
+# brew "httpie" # like curl
+# brew "trash"
+# brew "navi" # an interactive cheatsheet tool for the command-line and application launchers
 
 # utils
 brew "nmap"
-brew "screenfetch"
-cask "ngrok"
+# brew "screenfetch"
+# cask "ngrok"
 
 # code - move to code maybe
-brew "go"
-brew "ruby" # beacause of permissions of apple ruby
-brew "schniz/tap/fnm" # nvm/n like
+brew "fnm" # nvm/n like
+# brew "go"
+# brew "ruby" # beacause of permissions of apple ruby

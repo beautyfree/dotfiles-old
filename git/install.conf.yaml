@@ -1,3 +1,7 @@
 - link:
-    ~/.gitconfig: config/gitconfig
-    ~/.gitignore_global: config/gitignore_global
+    ~/.gitconfig:
+      relink: true
+      path: config/gitconfig
+    ~/.gitignore_global:
+      relink: true
+      path: config/gitignore_global
