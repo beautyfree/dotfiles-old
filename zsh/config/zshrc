@@ -29,6 +29,7 @@ export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug "plugins/git",   from:oh-my-zsh
+zplug "zsh-users/zsh-autosuggestions", as:plugin
 zplug "dracula/zsh", as:theme
 
 # Install plugins if there are plugins that have not been installed
@@ -109,12 +110,14 @@ ZSH_THEME="dracula"
 # fnm
 eval "$(fnm env)"
 
-# starship
-eval "$(starship init zsh)"
-
 # z
 . $(brew --prefix)/etc/profile.d/z.sh
 
 # $(brew --prefix)/opt/fzf/install
 
+# starship
+eval "$(starship init zsh)"
+
 . $HOME/.dotfiles/zsh/utils/profiler.stop.zsh
+
+

@@ -13,28 +13,31 @@ cask "figma"
 cask "notion"
 
 # power
-cask "alfred"
 cask "boom-3d"
 # cask "bettertouchtool"
 
 # code
+cask "jetbrains-toolbox"
+cask "docker"
 # cask "atom"
 # cask "postico"
-cask "jetbrains-toolbox"
 
 # utils
-cask "obs"
+cask "obs" # app for streaming
+cask "dozer" # better top bar
+cask "topnotch" # utility to hide the notch
+cask "tunnelblick" # vpn client
+# cask "keycastr" # keystroke visualizer
 # cask "clean-me"
 # cask "caffeinate" # dont find cask
 # cask "vnc-viewer"
 # cask "dropbox"
-cask "tunnelblick"
 # cask "iina"
 # cask "transmission"
 # cask "keybase"
 # cask "postman"
 # cask "insomnia"
-cask "dozer" # better top bar
+
 # cask "rectangle"
 # cask "amethyst"
 # cask "toggl"

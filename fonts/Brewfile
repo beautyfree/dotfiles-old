@@ -5,3 +5,4 @@ brew "svn"
 
 # cask "font-fira-code"
 cask "font-fira-mono-for-powerline"
+cask "font-fira-code-nerd-font"

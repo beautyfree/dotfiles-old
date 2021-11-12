@@ -49,6 +49,10 @@ task :apps => [:'meta:homebrew'] do
     sh 'brew bundle --verbose --file=apps/Brewfile'
 end
 
+task :alfred => [:'meta:homebrew'] do
+    sh 'brew bundle --verbose --file=alfred/Brewfile'
+end
+
 task :common => [:'meta:dotbot'] do
     sh "#{dotbot} -c common/install.conf.yaml"
 end
@@ -81,11 +85,12 @@ task :default => [
   :ssh,
   :fonts,
   :karabiner,
-  :sublime,
-  :vscode,
   :apps,
+  :alfred,
   :common,
   :macos,
+#   :sublime,
+#   :vscode,
 ]
 
 task :install => [

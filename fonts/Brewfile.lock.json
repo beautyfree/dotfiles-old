@@ -57,6 +57,12 @@
         "options": {
           "full_name": "font-fira-mono-for-powerline"
         }
+      },
+      "font-fira-code-nerd-font": {
+        "version": "2.1.0",
+        "options": {
+          "full_name": "font-fira-code-nerd-font"
+        }
       }
     }
   },
@@ -65,7 +71,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.3",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "356f12c369ef109698dc02753ccc078c66628901",
+        "Homebrew/homebrew-core": "5f739df0991f03e4bdb82ae367c0fd15f62a43f8",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.0",
         "macOS": "12.0"
