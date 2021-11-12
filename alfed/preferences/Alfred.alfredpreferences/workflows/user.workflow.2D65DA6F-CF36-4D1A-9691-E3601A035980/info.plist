@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>bundleid</key>
+    <string>leozhang2018.code.httpstat</string>
+    <key>connections</key>
+    <dict>
+      <key>65F9AB9B-057F-4F2A-B568-F2B99C534F84</key>
+      <array/>
+    </dict>
+    <key>createdby</key>
+    <string>leozhang2018</string>
+    <key>description</key>
+    <string>httpstat visualizes </string>
+    <key>disabled</key>
+    <false/>
+    <key>name</key>
+    <string>httpstat</string>
+    <key>objects</key>
+    <array>
+      <dict>
+        <key>config</key>
+        <dict>
+          <key>alfredfiltersresults</key>
+          <false/>
+          <key>alfredfiltersresultsmatchmode</key>
+          <integer>0</integer>
+          <key>argumenttrimmode</key>
+          <integer>0</integer>
+          <key>argumenttype</key>
+          <integer>0</integer>
+          <key>escaping</key>
+          <integer>102</integer>
+          <key>keyword</key>
+          <string>hs</string>
+          <key>queuedelaycustom</key>
+          <integer>3</integer>
+          <key>queuedelayimmediatelyinitially</key>
+          <true/>
+          <key>queuedelaymode</key>
+          <integer>0</integer>
+          <key>queuemode</key>
+          <integer>2</integer>
+          <key>runningsubtext</key>
+          <string>Searching...</string>
+          <key>script</key>
+          <string>./node_modules/.bin/run-node index.js "$1"</string>
+          <key>scriptargtype</key>
+          <integer>1</integer>
+          <key>scriptfile</key>
+          <string>index.js</string>
+          <key>subtext</key>
+          <string>Update available: 0.1.0 → 0.1.1. Run `npm install -g alfred-httpstat`</string>
+          <key>title</key>
+          <string>httpstat visualizes</string>
+          <key>type</key>
+          <integer>0</integer>
+          <key>withspace</key>
+          <true/>
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.input.scriptfilter</string>
+        <key>uid</key>
+        <string>65F9AB9B-057F-4F2A-B568-F2B99C534F84</string>
+        <key>version</key>
+        <integer>2</integer>
+      </dict>
+    </array>
+    <key>readme</key>
+    <string/>
+    <key>uidata</key>
+    <dict>
+      <key>65F9AB9B-057F-4F2A-B568-F2B99C534F84</key>
+      <dict>
+        <key>xpos</key>
+        <integer>10</integer>
+        <key>ypos</key>
+        <integer>10</integer>
+      </dict>
+    </dict>
+    <key>version</key>
+    <string>0.1.0</string>
+    <key>webaddress</key>
+    <string>https://github.com/leozhang2018/alfred-httpstat#readme</string>
+  </dict>
+</plist>
