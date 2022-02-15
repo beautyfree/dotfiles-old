@@ -1,10 +1,9 @@
-- defaults:
-    shell:
-      stdin: true
+- shell:
+    -
+      description: Install nix
+      command: "sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume"
       stdout: true
       stderr: true
-
-- shell:
     - description: Install nix-darwin (1/2)
       command: "nix-build https://github.com/LnL7/nix-darwin/archive/master.tar.gz -A installer"
       stdout: true
