@@ -1,12 +1,12 @@
 # usual
 cask "brave-browser"
+cask "yandex" # for instant translate of videos
 # cask "google-chrome"
 # cask "skype"
 cask "slack"
 cask "telegram"
 # cask "typora"
 # cask "termius"
-brew "spark"
 cask "spotify"
 cask "discord"
 cask "figma"
@@ -19,14 +19,29 @@ cask "boom-3d"
 # code
 cask "jetbrains-toolbox"
 cask "docker"
+cask "insomnia"
+cask "meld" # diff
+# brew "vercel-cli"
+# brew "rustup-init" # rustup / need to run rustup-init to install
 # cask "atom"
 # cask "postico"
+# cask "postman"
+
+
+# game
+# cask "steam"
 
 # utils
+cask "toggl-track"
+cask "raycast"
+cask "zoom"
 cask "obs" # app for streaming
 cask "dozer" # better top bar
+cask "hot" # temperature is status bar
 cask "topnotch" # utility to hide the notch
 cask "tunnelblick" # vpn client
+cask "raspberry-pi-imager"
+cask "rectangle"
 # cask "keycastr" # keystroke visualizer
 # cask "clean-me"
 # cask "caffeinate" # dont find cask
@@ -34,9 +49,8 @@ cask "tunnelblick" # vpn client
 # cask "dropbox"
 # cask "iina"
 # cask "transmission"
-# cask "keybase"
-# cask "postman"
-# cask "insomnia"
+cask "keybase"
+
 
 # cask "rectangle"
 # cask "amethyst"
@@ -49,8 +63,14 @@ brew "mas"
 mas "Amphetamine", id: 937984704
 mas "KeyKey", id: 1035137927
 mas "Coin Tick - Menu Bar Crypto", id: 1141688067
+mas "Spark – Email App by Readdle", id: 1176895641
+
+# https://colorslurp.com/
 
 # wanna buy
+# https://ia.net/
+# https://getpixelsnap.com/
+# https://cleanshot.com/
 # https://www.noodlesoft.com/
 # !!! https://folivora.ai/
 # https://nektony.com/mac-app-cleaner/buy-app-cleaner?app

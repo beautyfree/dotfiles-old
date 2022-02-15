@@ -1,0 +1,6 @@
+- shell:
+    -
+      description: Install nix
+      command: "sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume"
+      stdout: true
+      stderr: true

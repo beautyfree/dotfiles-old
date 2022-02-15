@@ -8,6 +8,9 @@ export KEYTIMEOUT=1 # Shorter delay typing
 
 export DOTFILES="$HOME/.dotfiles"
 
+# solana
+export PATH="/Users/devall/.local/share/solana/install/active_release/bin:$PATH"
+
 # pip
 # export PATH=$PATH:/Users/devall/Library/Python/2.7/bin
 
@@ -106,6 +109,9 @@ ZSH_THEME="dracula"
 
 # aliases
 . ~/.dotfiles/zsh/config/aliases.zsh
+
+# direnv
+eval "$(direnv hook zsh)"
 
 # fnm
 eval "$(fnm env)"

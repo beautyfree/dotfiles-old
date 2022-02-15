@@ -1,3 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+
+- create:
+    # will be created after start but we need it to make links
+    - ~/Library/Application Support/Code/User/
+
 - link:
     ~/Library/Application Support/Code/User/settings.json: config/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: config/keybindings.json

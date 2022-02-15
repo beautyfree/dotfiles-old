@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "cmd+`",
@@ -11,5 +10,9 @@
   {
     "key": "shift+cmd+n",
     "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "-workbench.action.newWindow"
   }
 ]

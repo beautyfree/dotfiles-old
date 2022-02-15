@@ -1,19 +1,28 @@
 {
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": true,
-  "telemetry.enableTelemetry": false,
-  "workbench.enableExperiments": false,
-  "go.formatTool": "goimports",
-  "go.useLanguageServer": true,
-  "explorer.openEditors.visible": 0,
-  "timeline.excludeSources": [],
-  "workbench.view.alwaysShowHeaderActions": true,
-  "workbench.iconTheme": "ayu",
-  "oneDarkPro.editorTheme": "ayu",
-  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "telemetry.enableTelemetry": false,
+
+  "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
+
+  "timeline.excludeSources": [],
+
+  "workbench.enableExperiments": false,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.iconTheme": "ayu",
+
+  "files.autoSave": "afterDelay",
+
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "eslint.packageManager": "yarn",
@@ -24,13 +33,11 @@
     "typescript",
     "typescriptreact"
   ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "explorer.compactFolders": false,
+
+
   "typescript.implementationsCodeLens.enabled": true,
-  "workbench.colorTheme": "Dracula Darcula",
   "git.autofetch": true,
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 120
+  "rust-analyzer.inlayHints.enable": true,
+  "workbench.colorTheme": "Dracula Darcula",
+  "tabnine.experimentalAutoImports": true
 }

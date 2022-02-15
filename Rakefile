@@ -30,7 +30,7 @@ task :zsh => [:'meta:homebrew', :'meta:dotbot'] do
     sh "#{dotbot} -c zsh/install.conf.yaml"
 end
 
-task :ssh => [:'meta:homebrew', :'meta:dotbot'] do
+task :ssh => [:'meta:dotbot'] do
     sh "#{dotbot} -c ssh/install.conf.yaml"
 end
 
@@ -73,14 +73,19 @@ task :macos => [:'meta:homebrew'] do
     sh 'env SHELL=/bin/bash ./macos/defaults.sh'
 end
 
+task :vscode => [:'meta:homebrew', :'meta:dotbot'] do
+    sh 'brew bundle --verbose --file=vscode/Brewfile'
+    sh "#{dotbot} -c vscode/install.conf.yaml"
+end
+
+task :nix => [:'meta:dotbot'] do
+    sh "nix-build --version || #{dotbot} -c nix/install.nix.conf.yaml"
+    sh "#{dotbot} -c nix/install.nix-darwin.conf.yaml"
+end
+
 # task :sublime => [:'meta:homebrew', :'meta:dotbot'] do
 #     sh 'brew bundle --verbose --file=sublime/Brewfile'
 #     sh "#{dotbot} -c sublime/install.conf.yaml"
-# end
-
-# task :vscode => [:'meta:homebrew', :'meta:dotbot'] do
-#     sh 'brew bundle --verbose --file=vscode/Brewfile'
-#     sh "#{dotbot} -c vscode/install.conf.yaml"
 # end
 
 task :default => [
@@ -95,8 +100,9 @@ task :default => [
   :alfred,
   :common,
   :macos,
+  :vscode, # for rust primary
+  :nix,
 #   :sublime,
-#   :vscode,
 ]
 
 task :install => [
