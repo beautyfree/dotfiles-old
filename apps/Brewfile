@@ -42,6 +42,7 @@ cask "topnotch" # utility to hide the notch
 cask "tunnelblick" # vpn client
 cask "raspberry-pi-imager"
 cask "rectangle"
+cask "obsidian"
 # cask "keycastr" # keystroke visualizer
 # cask "clean-me"
 # cask "caffeinate" # dont find cask

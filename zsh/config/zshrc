@@ -127,3 +127,4 @@ eval "$(starship init zsh)"
 . $HOME/.dotfiles/zsh/utils/profiler.stop.zsh
 
 
+eval "$(pyenv init -)"

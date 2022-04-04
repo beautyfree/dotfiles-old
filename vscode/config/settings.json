@@ -33,11 +33,24 @@
     "typescript",
     "typescriptreact"
   ],
-
-
   "typescript.implementationsCodeLens.enabled": true,
   "git.autofetch": true,
-  "rust-analyzer.inlayHints.enable": true,
   "workbench.colorTheme": "Dracula Darcula",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "macros": {
+    "fixAll": [
+      {
+        "command": "editor.action.sourceAction",
+        "args": {
+          "kind": "source.addMissingImports",
+          "apply": "first"
+        }
+      },
+      "eslint.executeAutofix"
+    ]
+  },
+  "rust-analyzer.lens.enumVariantReferences": true
 }
