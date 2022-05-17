@@ -32,15 +32,15 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "alfy": "^0.6.0",
-    "is-url": "^1.2.4"
+    "alfy": "0.6.0",
+    "is-url": "1.2.4"
   },
   "deprecated": false,
   "description": "httpstat visualizes ",
   "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
+    "alfy-test": "0.3.0",
+    "ava": "0.18.2",
+    "xo": "0.17.1"
   },
   "engines": {
     "node": ">=4"
