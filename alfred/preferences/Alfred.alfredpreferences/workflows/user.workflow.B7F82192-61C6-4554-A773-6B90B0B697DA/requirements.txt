@@ -1,4 +1,4 @@
-Alfred-Workflow==1.37.2
+Alfred-Workflow==1.40.0
 algoliasearch==2.1.0
 certifi==2019.9.11
 chardet==3.0.4
